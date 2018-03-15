@@ -1,0 +1,209 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "FileDescription", "Dialogs Dynamic Link Library"
+            VALUE "FileVersion", "1,0,0,1"
+            VALUE "InternalName", "Dialogs"
+            VALUE "LegalCopyright", "Copyright (C) 2008"
+            VALUE "OriginalFilename", "Dialogs.dll"
+            VALUE "ProductName", "IC Imaging Control"
+            VALUE "ProductVersion", "1,0,0,1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_VIDEOFILE_DIALOG DIALOGEX 0, 0, 343, 135
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU
+CAPTION "Stream Sink Settings"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_CONTAINER_COMBO,85,19,133,80,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Codec",IDC_CODEC_RADIO,"Button",BS_AUTORADIOBUTTON | WS_GROUP,17,39,59,12,WS_EX_RIGHT
+    CONTROL         "Uncompressed",IDC_UNCOMPRESSED_RADIO,"Button",BS_AUTORADIOBUTTON,13,55,63,12,WS_EX_RIGHT
+    CONTROL         "Unspecified",IDC_UNSPECIFIED_RADIO,"Button",BS_AUTORADIOBUTTON,15,71,61,12,WS_EX_RIGHT
+    COMBOBOX        IDC_CODEC_COMBO,85,39,133,82,CBS_DROPDOWNLIST | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    COMBOBOX        IDC_UNCOMPRESSED_COMBO,85,55,133,73,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,286,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,286,24,50,14
+    GROUPBOX        "Stream File Format",IDC_STATIC,7,7,274,84
+    GROUPBOX        "Video File",IDC_STATIC,7,96,274,32
+    RTEXT           "Container Type",IDC_STATIC,26,19,50,12,SS_CENTERIMAGE
+    RTEXT           "File",IDC_STATIC,27,107,49,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_FILENAME_EDIT,85,107,163,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_FILENAME_BUTTON,253,107,21,14
+    PUSHBUTTON      "Properties...",IDC_CODEC_PROPERTIES,223,38,51,14
+END
+
+IDD_VIDEOCAPTURE_DIALOG DIALOGEX 0, 0, 263, 142
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU
+CAPTION "Video Recording"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,206,10,50,14
+    GROUPBOX        "Video File",IDC_STATIC,7,7,193,68
+    LTEXT           "<Container>",IDC_CONTAINER_STATIC,18,20,123,8,SS_CENTERIMAGE
+    GROUPBOX        "Recording Control",IDC_STATIC,7,83,193,52
+    PUSHBUTTON      "Start",IDC_START_BUTTON,18,99,50,14
+    PUSHBUTTON      "Stop",IDC_STOP_BUTTON,141,99,50,14
+    CONTROL         "Pause",IDC_PAUSE_BUTTON,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,81,99,50,14
+    PUSHBUTTON      "Edit...",IDC_EDIT_SINK,141,17,50,14
+    LTEXT           "<Codec>",IDC_CODEC_STATIC,18,38,173,8
+    LTEXT           "<File>",IDC_FILE_STATIC,18,56,173,8,SS_PATHELLIPSIS
+    LTEXT           "Recorded Time: 0.0s",IDC_TIME,18,120,173,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_VIDEOFILE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 336
+        VERTGUIDE, 76
+        VERTGUIDE, 85
+        VERTGUIDE, 218
+        VERTGUIDE, 274
+        VERTGUIDE, 281
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+        HORZGUIDE, 19
+        HORZGUIDE, 31
+        HORZGUIDE, 39
+        HORZGUIDE, 51
+        HORZGUIDE, 55
+        HORZGUIDE, 67
+        HORZGUIDE, 71
+        HORZGUIDE, 83
+        HORZGUIDE, 107
+        HORZGUIDE, 121
+    END
+
+    IDD_VIDEOCAPTURE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 256
+        VERTGUIDE, 18
+        VERTGUIDE, 141
+        VERTGUIDE, 191
+        VERTGUIDE, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+        HORZGUIDE, 24
+        HORZGUIDE, 42
+        HORZGUIDE, 60
+        HORZGUIDE, 99
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

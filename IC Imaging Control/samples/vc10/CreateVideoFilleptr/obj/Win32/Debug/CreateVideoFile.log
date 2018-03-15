@@ -1,0 +1,11 @@
+﻿生成启动时间为 2017/2/18 9:25:45。
+     1>项目“E:\程序\IC Imaging Control 3.4\samples\vc10\CreateVideoFille\CreateVideoFile.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(362,5): warning MSB8003: Could not find WindowsSDKDir variable from the registry.  TargetFrameworkVersion or PlatformToolset may be set to an invalid version number.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>Link:
+         CreateVideoFile.vcxproj -> E:\程序\IC Imaging Control 3.4\samples\vc10\CreateVideoFille\..\..\..\classlib\win32\debug\CreateVideoFile_vc10.exe
+     1>已完成生成项目“E:\程序\IC Imaging Control 3.4\samples\vc10\CreateVideoFille\CreateVideoFile.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.06

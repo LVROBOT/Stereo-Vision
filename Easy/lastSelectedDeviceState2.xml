@@ -1,0 +1,6 @@
+<device_state libver="3.4" filemajor="1" fileminor="0">
+    <device name="DFK 23GM021 [Cam2]" base_name="DFK 23GM021 [Cam2]" unique_name="DFK 23GM021 [Cam2] 47514267">
+        <videoformat>RGB32 (1280x960)</videoformat>
+        <fps>20.</fps>
+    </device>
+</device_state>

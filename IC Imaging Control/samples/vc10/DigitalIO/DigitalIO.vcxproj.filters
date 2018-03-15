@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="VCDSimpleProperty">
+      <UniqueIdentifier>{4b0806cd-c32f-4107-8ad5-40b01a0585a4}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4e286384-3d2a-4813-b0f9-bf19b1addd7e}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="hidden">
+      <UniqueIdentifier>{bb863c4b-bd73-44e4-b3f3-28eb0039b80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SimplePropertyAccess">
+      <UniqueIdentifier>{4a67c61d-2659-41d2-8567-dda47d1d4d92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DigitalIO.cpp">
+      <Filter>VCDSimpleProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitalIODlg.cpp">
+      <Filter>VCDSimpleProperty</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>hidden</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\SimplePropertyAccess.cpp">
+      <Filter>SimplePropertyAccess</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DigitalIO.h">
+      <Filter>VCDSimpleProperty</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalIODlg.h">
+      <Filter>VCDSimpleProperty</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>hidden</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\SimplePropertyAccess.h">
+      <Filter>SimplePropertyAccess</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DigitalIO.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DigitalIO.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DigitalIO.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
